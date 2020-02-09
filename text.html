@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>janken</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ここからタイトル -->
+    <div class="title">
+        <p>じゃんけん</p>
+    </div>
+    <!-- ここまでタイトル -->
+
+    <!-- ここから相手のエリア -->
+    <!-- レベル選択・相手が何を出すか・相手imgを横並び -->
+    <div class="aite_area">
+        <!-- ここからレベル選択 -->
+        <div class="revel">
+            <p id="revel1">レベル１</p>
+            <p id="revel2">レベル２</p>
+        </div>
+        <!-- ここまでレベル選択 -->
+
+        <!-- ここから相手が何を出すか -->
+        <div class="aite">
+            <p class="aite_te">
+                <p></p>
+            </p>
+        </div>
+        <!-- ここまで相手が何を出すか -->
+
+        <!-- ここから相手img -->
+        <div class="aite_img">
+            <p><img src="img/aite_img1.png" alt=""></p>
+        </div>
+        <!-- ここまで相手img -->
+    </div>
+    <!-- ここまで相手のエリア -->
+
+    <!-- ここから勝敗表示 -->
+    <div class="kekka">
+        <p>勝負！</p>
+    </div>
+    <!-- ここまで勝敗表示 -->
+
+    <!-- ここからどの手を出すか -->
+    <div class="te">
+        <p class="gu"><img src="img/janken_gu.png" alt=""></p>
+        <p class="choki"><img src="img/janken_choki.png" alt=""></p>
+        <p class="pa"><img src="img/janken_pa.png" alt=""></p>
+    </div>
+    <!-- ここまでどの手を出すか -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="janken.js"></script>
+</body>
+</html>
